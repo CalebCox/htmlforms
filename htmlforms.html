@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width,
+  initial-scale=1.0">
+  <title>Semantic Form Exercise</title>
+</head>
+
+<Body>
+  <Main>
+    <h1>Semantic Form Excercise</h1>
+    <form action="#" method="post" aria-labelledby="form-title">
+      <h2 id="form-title">User Registration</h2>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label>First Name</label>
+        <input required type="text">
+        <label>Last Name</label>
+        <input required type="text">
+        <label>Email</label>
+        <input required type="email">
+        <label>Phone Number</label>
+        <input required type="tel">
+      </fieldset>
+      <fieldset>
+        <legend>Preferences</legend>
+        <label>Preferred Contact Method</label>
+        <select>
+          <option>Email</option>
+          <option>Phone</option>
+          <option>None</option>
+        </select>
+        <input type="checkbox"><label>News</label>
+        <input type="checkbox"><label>Events</label>
+        <input type="checkbox"><label>Offers</label>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </Main>
+</Body>
